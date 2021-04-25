@@ -81,9 +81,9 @@ function getPick(flavour, size, crust, topping, number) {
         crust.html() +
         "  " +
         topping.html() + " . " +
-        " Total at a cost of:Ksh. " +
+        " Total at a cost of: Ksh. " +
         results +
-        ".  It was a pleasure serving you. Welcome Again!!  "
+        ". Pleasure serving you. Welcome Again!!"
     );
 }
 $(document).ready(function () {
