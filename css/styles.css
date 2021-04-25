@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: rgb(212, 28, 114);
 }
 /*navbar*/
 .navbar ul {
@@ -28,7 +28,7 @@ body{
 .home {
     height: auto;
     width: auto;
-    background-image: url("../images/back1.jpg");
+    background-image: url("../images/backg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -63,7 +63,7 @@ body{
     background-attachment: fixed;
 }
 #order{
-    background-image: url("../images/pizza.jpg");
+    background-image: url("../images/back.jpg");
 }
 .myform{
     padding: 16px 20px;
