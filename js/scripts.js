@@ -41,10 +41,10 @@ function getAmount(flavour, size, crust, topping, number) {
             parseInt(topping.val())) *
         parseInt(number.val());
     alert(
-        "You've ordered " +
+        "You have ordered " +
         number.val() +
         " " +
-        "pizza's" +
+        "pizzas" +
         " " +
         flavour.html() +
         " " +
@@ -56,12 +56,12 @@ function getAmount(flavour, size, crust, topping, number) {
         " " +
         " which amounts to Ksh. " +
         results +
-        " Thanks for your order,welcome again!"
+        " Thank you,welcome again!"
     );
-    prompt("Enter your location");
-    prompt("Enter your name");
-    prompt("Enter your phone number");
-    alert("Your order will be delivered in a while, delivery fee is  Ksh. 200 ONLY.");
+    prompt("Enter your location:");
+    prompt("Enter your name:");
+    prompt("Enter your phone number:");
+    alert("Your order will be delivered in a while, delivery charge is  Ksh. 100 ONLY.");
 }
 
 function getPick(flavour, size, crust, topping, number) {
@@ -72,7 +72,7 @@ function getPick(flavour, size, crust, topping, number) {
             parseInt(topping.val())) *
         parseInt(number.val());
     alert(
-        "Your bucket list has: " +
+        "You have in bucket: " +
         number.val() +
         " " +
         " pizza's, " +
@@ -83,7 +83,6 @@ function getPick(flavour, size, crust, topping, number) {
         crust.html() +
         "  " +
         topping.html() +
-        "  " +
         " Total at a cost of:Ksh. " +
         results +
         "  It was a pleasure serving you. Welcome Again!!  "
@@ -121,7 +120,7 @@ $(document).ready(function(){
         var Message = $("#Message").val(); 
 
 if (Name == "" || Email == "" || Message == "") {
-    alert("Kindly Enter the form details correctly correctly!");
-} else alert(" Hello " + Name + "YOur Message Has been received and recorded successfully");
+    alert("Kindly Enter your details correctly!");
+} else alert(" Hello " + Name + ", your message has been received and recorded successfully");
 });
 });
