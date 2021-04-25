@@ -54,9 +54,9 @@ function getAmount(flavour, size, crust, topping, number) {
         " " +
         topping.html() +
         " " +
-        " which amounts to Ksh. " +
+        " which sums up to Ksh. " +
         results +
-        " Thank you,welcome again!"
+        ". Thank you,welcome again!"
     );
     prompt("Enter your location:");
     prompt("Enter your name:");
@@ -72,20 +72,18 @@ function getPick(flavour, size, crust, topping, number) {
             parseInt(topping.val())) *
         parseInt(number.val());
     alert(
-        "You have in bucket: " +
-        number.val() +
-        " " +
-        " pizza's, " +
+        "You have in your bucket: " +
+        number.val() + " pizzas, " +
         flavour.html() +
         " " +
         size.html() +
         " " +
         crust.html() +
         "  " +
-        topping.html() +
+        topping.html() + " . " +
         " Total at a cost of:Ksh. " +
         results +
-        "  It was a pleasure serving you. Welcome Again!!  "
+        ".  It was a pleasure serving you. Welcome Again!!  "
     );
 }
 $(document).ready(function () {
