@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(212, 28, 114);
+    background-color: rgb(228, 18, 175);
 }
 /*navbar*/
 .navbar ul {
@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:orange;
+    background-color:rgb(0, 17, 255);
     width: 100%;
 }
 .navbar li {
@@ -32,7 +32,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*menu */
+
 .pizzapictures img{
     transition: transform 2s ease-in-out;
 }
@@ -47,23 +47,25 @@ body{
       transform: translate(-50%, -50%);
       border-top: 0.15em solid black;
       border-bottom: 0.15em solid black;
-      color: blueviolet;
+      color: rgb(244, 242, 247);
       font-weight: bold;
       display: none;
       font-size: 2.5em;
   }
-
   .pizzapictures .col-md-4:hover p {
       display: block;
   }
 .hometext {
     text-align: center;
-    color:black;
+    color:yellow;
     margin-top: 400px;
     background-attachment: fixed;
 }
 #order{
     background-image: url("../images/back.jpg");
+}
+#order2{
+    color:white;
 }
 .myform{
     padding: 16px 20px;
