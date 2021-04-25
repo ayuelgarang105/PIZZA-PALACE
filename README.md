@@ -13,4 +13,4 @@ Pizza Palace website is a web application where customers order different sizes 
 * email: ayuelgarang105@gmail.com
 * phone: 0748134238
 ## Copyright and License Information.
-Licensed under [MIT LICENSE](https://github.com/ayuelgarang105/PIZZA-PALACE/master/LICENSE)
+Licensed under [MIT LICENSE](https://github.com/ayuelgarang105/PIZZA-PALACE/master/LICENSE).
