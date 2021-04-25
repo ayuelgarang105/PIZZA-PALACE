@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/scripts.js"></script>  
+    <title>Pizza Website</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="navbar">
+            <ul>
+                <li><a class="active" href="#home">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#order">ORDER</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+            </ul>
+        </div>
+       
+    </div>
+    <!--home-->
+    <div class="row home" id="home">
+        <div class="col-md-12 hometext">
+            <h1 class="display-4">WELCOME <br><br> TO PIZZA INN RESTAURANT</h1>
+            <marquee><strong>WE CREATE LOVE && WE CREATE FOOD. ALWAYS SATISFYING YOUR PIZZA TASTE.</strong></marquee>
+        </div>
+    </div>
+    <br>
+    <br>
+        <div id="menu">
+            <div class="size">
+                <h1 class="text-center"><strong>Pizza Comes in different sizes: small, medium and large.</strong></h1>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="pizzapictures">
+            <div class="container">
+                <div class="row" id="pizzasizes">
+                    <div class="col-md-4">
+                        <img src="images/small.jpg" height="350px" width="350px">
+                        <p><strong> Small size of:1/4 kgs @ Ksh.400</strong></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/medium.jpg" height="350px" width="350px">
+                        <p><strong> Medium size of 1/2 Kgs @ Ksh.800</strong></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/large.jpg" height="350px" width="350px">
+                        <p><strong> Large size of:1 Kg @ Ksh. 1600</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>    
+    <br>
+    <br>
+    <!--Order-->
+    <div class="container" id="order">
+        <h1 class="text-center"><strong>Make your Orders NOW for Delivery.</strong></h1>
+        <form>
+            <div class="form-group text-center myform"> 
+                <!--preferred flavour-->
+                <label for="select your pizza flavour"><b>Pizza Flavour:</b></label>
+                <select class="form-control" id="pizzaflavour">
+                    <option><b>select pizza flavor</b></option>
+                    <option value="430"><b>Hawaiian @ Ksh 430</b></option>
+                    <option value="500"><b>Peri-peri Chicken @ Ksh 500</b></option>
+                    <option value="420"><b>Chicken Tikka @ Ksh 420</b></option>
+                    <option value="350"><b>Vegetable Tikka @ Ksh 350</b></option>
+                    <option value="450"><b>Butternut Squash @ Ksh 450</b></option>
+                </select>
+                </div>
+
+                <!--preferred size-->
+                <div class="form-group text-center myform">
+                    <label for="chooseyourpreferredsize"><b>Preferred size</b></label>
+                    <select class="form-control" id="pizzasize">
+                        <option><b>which size do you preffer?</b></option>
+                        <option value="400"><b>Small @ Ksh 400</b></option>
+                        <option value="800"><b>Medium @ Ksh 800</b></option>
+                        <option value="1600"><b>Large @ Ksh 1600</b></option>
+                    </select>
+                </div>
+                <!--favorite crust-->
+                <div class="form-group text-center myform">
+                    <label for="chooseyourfavorite crust"><b>Preferred Crust</b></label>
+                    <select class="form-control" id="pizzacrust">
+                        <option><b>choose your favorite crust</b></option>
+                        <option value="80"><b>Thin crust @ Ksh 80</b></option>
+                        <option value="120"><b>Thick crust @ Ksh 120</b></option>
+                        <option value="180"><b>Gluten-free crust @ Ksh 180</b></option>
+                        <option value="250"><b>Stuffed crust @ Ksh 250</b></option>
+                    </select>
+                </div>
+                <!--favorite toppings-->
+                <div class="form-group text-center myform">
+                    <label for="chooseyourfavoritetoppings"><b>Favorite Topping</b></label>
+                    <select class="form-control" id="pizzatopping">
+                        <option><b>Choose your favorite topping</b></option>
+                        <option value="180"><b>Mushroom @ Ksh 180</b></option>
+                        <option value="200"><b>Onions @ Ksh 200</b></option>
+                        <option value="350"><b>Olives @ Ksh 350</b></option>
+                        <option value="300"><b>Bacon @ Ksh 300</b></option>
+                        <option value="350"><b>Periperi Chicken @ Ksh 220</b></option>
+                    </select>
+                </div> 
+                <!--number of pizza-->
+                <div class="form-group text-center myform">
+                    <label for="number"><b>Number of Pizza:</b></label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizza" min="1" required>
+                </div> 
+        </form>
+        <div class="buttons">
+            <div class="text-center">
+            <button id="pick-up" type="submit" class="btn btn-info">PICK-UP</button> 
+            </div>
+        </div>
+        <br>
+        <br> 
+        <div class="text-center">
+            <button id="make-delivery" type="button" class="btn btn-primary">MAKE DELIVERY</button>
+        </div>
+    </div>
+    <br>
+               
+    <!--Contact us-->
+    <div class="container-fluid" id="contact">
+        <h1 class="text-center"><strong>Contact Us</strong></h1>
+        <br>
+
+        <div class="container">
+            <form action="https://formspree.io/mdowbzbn" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" name="FNAME" id="Name" placeholder="Name" required
+                            style="background-color: transparent" style="text-emphasis-color: green">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" name="EMAIL" id="email" placeholder="Email.. @gmail.com" required
+                            style="background-color: transparent" style="text-emphasis-color: green">
+                    </div>
+                </div>
+                    <textarea class="form-control" rows="6" placeholder="your  input message here..."
+                        style="background-color: transparent" style="text-emphasis-color: green" name="MMERGE2" id="Message"
+                        required></textarea>
+                    <br>
+                    <div class="text-center">
+                        <button type="submit" id="submit" class="btn btn-primary">SUBMIT</button>
+                    </div>
+                </div> 
+            </form>
+        </div> 
+    </div>
+    <br>
+    <!--footer-->
+    <div class="container" id="about">
+        <div class="footer">
+            <h4>PIZZA WEBSITE 2020</h4>
+            <h3>&COPY; chebeteddahrotich</h3>
+            <br>
+            <h3>email: eddahbaty98@gmail.com</h3>
+            <h3>phone: 0715017129</h3>
+        </div>
+
+    </div>
+    
+</body>
+</html>
